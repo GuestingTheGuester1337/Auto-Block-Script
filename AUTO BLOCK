@@ -15,9 +15,11 @@ local TestService = game:GetService("TestService")
 
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 local Window = Rayfield:CreateWindow({
-Name = "Auto Block Hub",
-LoadingTitle = "Auto Block Script",
-LoadingSubtitle = "by Skibidi Shots",
+Name = "Guestsaken",
+Icon = 130817598694623
+LoadingTitle = "Freaky Guest",
+LoadingSubtitle = "By GuestingTheGuesters1337",
+Showtext = "GuestHub",
 ConfigurationSaving = {
 Enabled = true,
 FolderName = "AutoBlockHub",
