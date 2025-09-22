@@ -16,10 +16,8 @@ local TestService = game:GetService("TestService")
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 local Window = Rayfield:CreateWindow({
 Name = "Guestsaken",
-Icon = 130817598694623
 LoadingTitle = "Freaky Guest",
 LoadingSubtitle = "By GuestingTheGuesters1337",
-Showtext = "GuestHub",
 ConfigurationSaving = {
 Enabled = true,
 FolderName = "AutoBlockHub",
@@ -27,7 +25,10 @@ FileName = "Settings"
 },
 Discord = {Enabled = false},
 KeySystem = false
+icon = 12641378923929,
 })
+
+Showtext = "GuestHub",
 
 local AutoBlockTab = Window:CreateTab("Auto Block", 4483362458)
 local BDTab = Window:CreateTab("Better Detection", 4483362458)
